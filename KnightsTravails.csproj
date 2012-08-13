@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChessBoard.cs" />
+    <Compile Include="ChessBoardPieceGraph.cs" />
+    <Compile Include="DijkstraStrategy.cs" />
+    <Compile Include="SingleSourceShortestPathStrategy.cs" />
+    <Compile Include="KnightGraph.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
