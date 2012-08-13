@@ -12,8 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayChessBoard", "DisplayChessBoard\DisplayChessBoard.csproj", "{138126B9-104F-450D-8AB8-A858BC345824}"
-EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = KnightsTravails.vsmdi
@@ -47,16 +45,6 @@ Global
 		{5CE2945B-169D-4C39-829C-A56C9414F465}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{5CE2945B-169D-4C39-829C-A56C9414F465}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{5CE2945B-169D-4C39-829C-A56C9414F465}.Release|x86.ActiveCfg = Release|Any CPU
-		{138126B9-104F-450D-8AB8-A858BC345824}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{138126B9-104F-450D-8AB8-A858BC345824}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{138126B9-104F-450D-8AB8-A858BC345824}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{138126B9-104F-450D-8AB8-A858BC345824}.Debug|x86.ActiveCfg = Debug|x86
-		{138126B9-104F-450D-8AB8-A858BC345824}.Debug|x86.Build.0 = Debug|x86
-		{138126B9-104F-450D-8AB8-A858BC345824}.Release|Any CPU.ActiveCfg = Release|x86
-		{138126B9-104F-450D-8AB8-A858BC345824}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{138126B9-104F-450D-8AB8-A858BC345824}.Release|Mixed Platforms.Build.0 = Release|x86
-		{138126B9-104F-450D-8AB8-A858BC345824}.Release|x86.ActiveCfg = Release|x86
-		{138126B9-104F-450D-8AB8-A858BC345824}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
