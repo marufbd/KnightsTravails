@@ -93,6 +93,6 @@ namespace KnightsTravailsTest
             Assert.AreEqual(3, knightGraph.EdgesAdjacencyList[board.Squares["a2"]].Count);
             Assert.AreEqual(4, knightGraph.EdgesAdjacencyList[board.Squares["b2"]].Count);
             Assert.AreEqual(6, knightGraph.EdgesAdjacencyList[board.Squares["c2"]].Count);            
-        }
+        }        
     }
 }

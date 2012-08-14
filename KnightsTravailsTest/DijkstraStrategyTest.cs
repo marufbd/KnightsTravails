@@ -74,7 +74,7 @@ namespace KnightsTravailsTest
             var board = new ChessBoard();
             var knightGraph = new KnightGraph(board);
 
-            var pathStrategy = new DijkstraStrategy(board.Squares["b7"], knightGraph);
+            var pathStrategy = new DijkstraAlgorithm(board.Squares["b7"], knightGraph);
             var path = pathStrategy.GetShortestPathTo(board.Squares["a8"]);
 
             foreach (var square in path)

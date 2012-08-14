@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="ChessBoard.cs" />
     <Compile Include="ChessBoardPieceGraph.cs" />
-    <Compile Include="DijkstraStrategy.cs" />
+    <Compile Include="DijkstraAlgorithm.cs" />
     <Compile Include="SingleSourceShortestPathStrategy.cs" />
     <Compile Include="KnightGraph.cs" />
     <Compile Include="Program.cs" />

@@ -23,14 +23,14 @@ namespace KnightsTravails
 
                 var board = new ChessBoard();
                 var knightGraph = new KnightGraph(board);
-                var shortestPathStrategy = new DijkstraStrategy(graph: knightGraph, source: board.Squares[src]);
+                var shortestPathStrategy = new DijkstraAlgorithm(graph: knightGraph, source: board.Squares[src]);
                 var shortestPath = shortestPathStrategy.GetShortestPathTo(board.Squares[dest]);
 
                 Console.WriteLine(String.Format("Shortest Path from {0} to {1} : ", src, dest));
-                foreach (var square in shortestPath)
-                {
-                    Console.Write(square + " ");
-                }
+                if(shortestPath==null) 
+                    Console.WriteLine("unreachable");
+                else
+                    shortestPath.ForEach(sq=>Console.Write(sq+" "));
                 
                 Console.Write("\nWant to continue?(y/n)");
                 string cont = Console.ReadLine();
