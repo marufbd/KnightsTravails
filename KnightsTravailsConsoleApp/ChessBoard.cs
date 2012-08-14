@@ -17,8 +17,7 @@ namespace KnightsTravails
         public ChessBoard()
         {
             for (int i = 0; i < _row; i++)
-            {
-                Char ch = 'a';
+            {                
                 for (var j = 0; j < _col; j++)
                 {
                     string key = "" + Alphabets[j] + (i + 1);

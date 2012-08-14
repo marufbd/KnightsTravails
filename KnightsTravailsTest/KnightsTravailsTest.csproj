@@ -55,9 +55,9 @@
     <Compile Include="DataStructTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KnightsTravails.csproj">
+    <ProjectReference Include="..\KnightsTravailsConsoleApp\KnightsTravailsConsoleApp.csproj">
       <Project>{E0CF5895-BF14-4BE2-A507-919228C5A6B2}</Project>
-      <Name>KnightsTravails</Name>
+      <Name>KnightsTravailsConsoleApp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

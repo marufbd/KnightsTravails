@@ -1,21 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnightsTravails", "KnightsTravails.csproj", "{E0CF5895-BF14-4BE2-A507-919228C5A6B2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnightsTravailsTest", "KnightsTravailsTest\KnightsTravailsTest.csproj", "{5CE2945B-169D-4C39-829C-A56C9414F465}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E53BFB43-C7BC-423E-8F6F-AFA93ACB4F72}"
-	ProjectSection(SolutionItems) = preProject
-		KnightsTravails.vsmdi = KnightsTravails.vsmdi
-		Local.testsettings = Local.testsettings
-		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
-	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnightsTravailsConsoleApp", "KnightsTravailsConsoleApp\KnightsTravailsConsoleApp.csproj", "{E0CF5895-BF14-4BE2-A507-919228C5A6B2}"
 EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = KnightsTravails.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -25,16 +17,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Debug|x86.ActiveCfg = Debug|x86
-		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Debug|x86.Build.0 = Debug|x86
-		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Release|Any CPU.ActiveCfg = Release|x86
-		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Release|Mixed Platforms.Build.0 = Release|x86
-		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Release|x86.ActiveCfg = Release|x86
-		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Release|x86.Build.0 = Release|x86
 		{5CE2945B-169D-4C39-829C-A56C9414F465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5CE2945B-169D-4C39-829C-A56C9414F465}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CE2945B-169D-4C39-829C-A56C9414F465}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -45,6 +27,16 @@ Global
 		{5CE2945B-169D-4C39-829C-A56C9414F465}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{5CE2945B-169D-4C39-829C-A56C9414F465}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{5CE2945B-169D-4C39-829C-A56C9414F465}.Release|x86.ActiveCfg = Release|Any CPU
+		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Debug|x86.ActiveCfg = Debug|x86
+		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Debug|x86.Build.0 = Debug|x86
+		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Release|Any CPU.ActiveCfg = Release|x86
+		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Release|Mixed Platforms.Build.0 = Release|x86
+		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Release|x86.ActiveCfg = Release|x86
+		{E0CF5895-BF14-4BE2-A507-919228C5A6B2}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
